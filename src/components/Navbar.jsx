@@ -122,30 +122,11 @@ export function NavBar() {
       <Collapse open={openNav}>
         {navList}
         <div className="flex items-center gap-x-1">
+          
           <Button
             onClick={(e) => {
               e.preventDefault();
-              window.open(
-                "https://www.youtube.com/channel/UC9_eEbHsL_1TL1O67Fwe7Yw",
-                "_blank"
-              );
-              setOpenNav(!openNav);
-            }}
-            variant="text"
-            size="sm"
-            className="dark:text-white"
-          >
-            <Icon
-              icon="mdi:youtube"
-              height={24}
-              width={24}
-              style={{ fontSize: "1.5em", marginRight: "5px" }}
-            />
-          </Button>
-          <Button
-            onClick={(e) => {
-              e.preventDefault();
-              window.open("https://github.com/shadowofleaf96", "_blank");
+              window.open("https://github.com/fuzailahmed-developer", "_blank");
               setOpenNav(!openNav);
             }}
             variant="text"
@@ -162,7 +143,7 @@ export function NavBar() {
           <Button
             onClick={(e) => {
               e.preventDefault();
-              window.open("https://www.linkedin.com/in/mkotbi/", "_blank");
+              window.open("https://www.linkedin.com/in/fuzail-ahmed-5bb991355/", "_blank");
               setOpenNav(!openNav);
             }}
             variant="text"

@@ -24,7 +24,7 @@ function AboutMe() {
       data-aos-duration="1500"
       data-aos-mirror="true"
       id="about-me"
-      className="text-black p-8 md:p-16 rounded-lg flex items-center justify-center scroll-mt-64 md:scroll-mt-28"
+      className="text-black md:p-16 rounded-lg flex items-center justify-center scroll-mt-64 md:scroll-mt-28 sm:pb-0 pb-4"
     >
       <div className="max-w-screen-md text-center">
         <Typography
@@ -35,7 +35,7 @@ function AboutMe() {
           About Me
         </Typography>
 
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center mt-12">
+        <div className="flex flex-col lg:flex-row space-y-4 md:space-y-0 items-center mt-12 gap-y-4">
           <Tilt
             className="flex justify-center"
             tiltMaxAngleY={10}
@@ -55,11 +55,11 @@ function AboutMe() {
             >
               Aspiring Frontend and MERN Stack Developer, passionate about crafting web solutions, eager to gain hands-on experience and grow into a skilled professional.
             </Typography>
-            <div className="w-[22rem]">
+            <div className="w-[100%] lg:max-w-[22rem]">
               <Timeline>
                 <TimelineItem className="h-28 hover:scale-105 transition-transform">
                   <TimelineConnector className="!w-[78px]" />
-                  <TimelineHeader className="relative rounded-xl border border-blue-gray-50 bg-white dark:bg-black dar py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
+                  <TimelineHeader className="relative rounded-xl border border-blue-gray-50 bg-white dark:bg-black dar py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5 sm:flex block text-center">
                     <TimelineIcon
                       className="p-3 dark:bg-blue-gray-200"
                       variant="ghost"
@@ -71,11 +71,11 @@ function AboutMe() {
                         size="md"
                       />
                     </TimelineIcon>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-1 mt-2 sm:mt-0">
                       <Typography
                         variant="h6"
                         color="blue-gray"
-                        className="font-base font-poppins dark:text-white"
+                        className="text:sm sm:font-base font-poppins dark:text-white"
                       >
                         SMIT TRAINING - Web & App Development Trainee
                       </Typography>

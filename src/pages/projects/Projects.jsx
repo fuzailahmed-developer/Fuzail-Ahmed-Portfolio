@@ -120,7 +120,7 @@ function ProjectCard({ project }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       color="white"
-      className="w-full max-w-sm dark:bg-black relative mx-auto mb-8 md:max-w-screen-md"
+      className="w-full max-w-[100%] dark:bg-black relative mx-auto mb-8 md:max-w-screen-md"
     >
       <animated.div style={blurProps}>
         <img
@@ -161,7 +161,7 @@ function ProjectCard({ project }) {
           </p>
         </CardBody>
 
-        <div className="flex mt-3">
+        <div className="flex mt-3 min-h-[100px]">
           <Button
             variant="text"
             onClick={() => handleButtonClick(project.liveDemoLink)}
@@ -215,7 +215,7 @@ function Projects() {
           My Projects
         </Typography>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-4 items-center mt-12">
+      <div className="grid grid-cols-1 gap-4  md:grid-cols-2 lg:grid-cols-3 lg:gap-4 items-center mt-12">
         {projectsData.map((project) => (
           <ProjectCard key={project.id} project={project} className="mb-4" />
         ))}
