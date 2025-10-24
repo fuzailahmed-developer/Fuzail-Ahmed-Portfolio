@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Typography } from "@material-tailwind/react";
 import { Icon } from "@iconify/react";
 import AOS from "aos";
@@ -7,63 +7,72 @@ import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   const skills = [
-  {
-    name: "React",
-    icon: <Icon icon="devicon:react" width="4em" height="4em" />,
-    link: "https://reactjs.org/",
-  },
-  {
-    name: "Node.js",
-    icon: <Icon icon="devicon:nodejs" width="4em" height="4em" />,
-    link: "https://nodejs.org/",
-  },
-  {
-    name: "Git",
-    icon: <Icon icon="devicon:git" width="4em" height="4em" />,
-    link: "https://git-scm.com/",
-  },
-  {
-    name: "GitHub",
-    icon: <Icon icon="devicon:github" width="4em" height="4em" />,
-    link: "https://github.com/",
-  },
-  {
-    name: "HTML",
-    icon: <Icon icon="devicon:html5" width="4em" height="4em" />,
-    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-  },
-  {
-    name: "CSS",
-    icon: <Icon icon="devicon:css3" width="4em" height="4em" />,
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  {
-    name: "JavaScript",
-    icon: <Icon icon="devicon:javascript" width="4em" height="4em" />,
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
-    name: "TailwindCSS",
-    icon: <Icon icon="devicon:tailwindcss" width="4em" height="4em" />,
-    link: "https://tailwindcss.com/",
-  },
-  {
-    name: "Bootstrap",
-    icon: <Icon icon="devicon:bootstrap" width="4em" height="4em" />,
-    link: "https://getbootstrap.com/",
-  },
-  {
-    name: "VS Code",
-    icon: <Icon icon="devicon:vscode" width="4em" height="4em" />,
-    link: "https://code.visualstudio.com/",
-  },
-  {
-    name: "Figma",
-    icon: <Icon icon="devicon:figma" width="4em" height="4em" />,
-    link: "https://figma.com/",
-  },
-];
-
+    {
+      name: "React",
+      icon: <Icon icon="devicon:react" width="4em" height="4em" />,
+      link: "https://reactjs.org/",
+    },
+    {
+      name: "Next.js",
+      icon: <Icon icon="devicon:nextjs" width="4em" height="4em" />,
+      link: "https://nextjs.org/",
+    },
+    {
+      name: "TypeScript",
+      icon: <Icon icon="devicon:typescript" width="4em" height="4em" />,
+      link: "https://www.typescriptlang.org/",
+    },
+    {
+      name: "Node.js",
+      icon: <Icon icon="devicon:nodejs" width="4em" height="4em" />,
+      link: "https://nodejs.org/",
+    },
+    {
+      name: "Git",
+      icon: <Icon icon="devicon:git" width="4em" height="4em" />,
+      link: "https://git-scm.com/",
+    },
+    {
+      name: "GitHub",
+      icon: <Icon icon="devicon:github" width="4em" height="4em" />,
+      link: "https://github.com/",
+    },
+    {
+      name: "HTML",
+      icon: <Icon icon="devicon:html5" width="4em" height="4em" />,
+      link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    },
+    {
+      name: "CSS",
+      icon: <Icon icon="devicon:css3" width="4em" height="4em" />,
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    },
+    {
+      name: "JavaScript",
+      icon: <Icon icon="devicon:javascript" width="4em" height="4em" />,
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+      name: "TailwindCSS",
+      icon: <Icon icon="devicon:tailwindcss" width="4em" height="4em" />,
+      link: "https://tailwindcss.com/",
+    },
+    {
+      name: "Bootstrap",
+      icon: <Icon icon="devicon:bootstrap" width="4em" height="4em" />,
+      link: "https://getbootstrap.com/",
+    },
+    {
+      name: "VS Code",
+      icon: <Icon icon="devicon:vscode" width="4em" height="4em" />,
+      link: "https://code.visualstudio.com/",
+    },
+    {
+      name: "Figma",
+      icon: <Icon icon="devicon:figma" width="4em" height="4em" />,
+      link: "https://figma.com/",
+    },
+  ];
 
   useEffect(() => {
     AOS.init();

@@ -11,21 +11,29 @@ import { useSpring, animated } from "react-spring";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Icon } from "@iconify/react";
+import toolsWebImg from "../../assets/Tools-Website.png"
 
 const projectsData = [
   {
     id: 1,
+    image: `${toolsWebImg}`,
+    title: "React + Tailwind UI Project",
+    description:
+      "A fully responsive React and Tailwind CSS UI project featuring modern layouts, reusable components, and smooth design. Focused on clean code, optimized structure, and professional web UI implementation.",
+    liveDemoLink: "https://react-tailwind-ui-project-one.vercel.app/",
+    sourceCodeLink: "https://github.com/fuzailahmed-developer/Fuzail-Ahmed-Portfolio",
+  },
+  {
+    id: 2,
     image: "https://github.com/fuzailahmed-developer/CSS-Projects/blob/main/NexaAi/nexa.png?raw=true",
     title: "Nexa AI Landing Page Clone",
     description:
       "A responsive Nexa AI landing page clone built with HTML, CSS, and JavaScript. Showcases modern UI, smooth layout design, and clean code structure. Live demo and open-source code available on GitHub.",
-    liveDemoLink:
-      "https://nexa-ai-clone-by-fuzail.surge.sh/",
-    sourceCodeLink:
-      "https://github.com/fuzailahmed-developer/CSS-Projects/tree/main/NexaAi",
+    liveDemoLink: "https://nexa-ai-clone-by-fuzail.surge.sh/",
+    sourceCodeLink: "https://github.com/fuzailahmed-developer/CSS-Projects/tree/main/NexaAi",
   },
   {
-    id: 2,
+    id: 3,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/10.weather-app.png?raw=true",
     title: "Weather Forecast App",
     description:
@@ -34,7 +42,7 @@ const projectsData = [
     sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/10_Weather-App",
   },
   {
-    id: 3,
+    id: 4,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/16.country-project.png?raw=true",
     title: "All Countries Details Dashboard",
     description:
@@ -43,26 +51,25 @@ const projectsData = [
     sourceCodeLink: "https://github.com/fuzailahmed-developer/Countries-Api-Project",
   },
   {
-    id: 4,
+    id: 5,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/9.landing-page.png?raw=true",
     title: "Dynamic Landing Page",
     description:
-      "A dynamic landing page built with JavaScript, HTML & CSS. Features animated content Sections, smooth scroll effects and responsive design. Live demo available and full source code open on GitHub",
+      "A dynamic landing page built with JavaScript, HTML & CSS. Features animated content sections, smooth scroll effects, and responsive design. Live demo available and full source code open on GitHub.",
     liveDemoLink: "https://dynamic-landing-page.surge.sh/",
     sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/09_Dynamic-Landing-Page",
   },
   {
-    id: 5,
+    id: 6,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/11.stop-watch.png?raw=true",
     title: "Stopwatch Timer App",
     description:
       "A simple and responsive stopwatch application built using JavaScript, HTML & CSS. Start, pause, reset features included with clean UI. Experience it live and check the full source code on GitHub.",
     liveDemoLink: "https://my-stop-watch-project.surge.sh/",
-    sourceCodeLink:
-      "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/16.StopWatch",
+    sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/16.StopWatch",
   },
   {
-    id: 6,
+    id: 7,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/8.todo-app.png?raw=true",
     title: "To-Do List with Local Storage",
     description:
@@ -71,7 +78,7 @@ const projectsData = [
     sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/05_To_DO_List/Todo_with_local-storage",
   },
   {
-    id: 7,
+    id: 8,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/1.counter-app.png?raw=true",
     title: "Counter App",
     description:
@@ -80,7 +87,7 @@ const projectsData = [
     sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/01_Counter-APP",
   },
   {
-    id: 8,
+    id: 9,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/12.gradient-generator.png?raw=true",
     title: "Gradient Generator Tool",
     description:
@@ -89,7 +96,7 @@ const projectsData = [
     sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/13.Gradient%20Genetor",
   },
   {
-    id: 9,
+    id: 10,
     image: "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/5.calculator.png?raw=true",
     title: "Calculator App",
     description:
@@ -98,6 +105,7 @@ const projectsData = [
     sourceCodeLink: "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/09_Calculator",
   },
 ];
+
 
 function ProjectCard({ project }) {
   const [isHovered, setHovered] = React.useState(false);
@@ -147,11 +155,11 @@ function ProjectCard({ project }) {
           borderRadius: "10px",
           padding: "10px",
           boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
-          minHeight : "360px"
+          minHeight: "360px"
         }}
         className="bg-white dark:bg-black"
       >
-        <Typography className="text-xl text-black dark:text-white font-semibold mb-2 font-poppins">
+        <Typography className="sm:text-xl text-black dark:text-white font-semibold mb-2 font-poppins">
           {project.title}
         </Typography>
 
