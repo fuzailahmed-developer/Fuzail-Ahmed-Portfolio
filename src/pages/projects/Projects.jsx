@@ -1,22 +1,11 @@
-import React, { useState, useEffect } from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Button,
-} from "@material-tailwind/react";
-import { useSpring, animated } from "react-spring";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { Icon } from "@iconify/react";
 import toolsWebImg from "../../assets/Tools-Website.png";
+import pizzaImg from "../../assets/pizza-img.png"
 
 const projectsData = [
   {
     id: 0,
-    image: "https://github.com/fuzailahmed-developer/first-next_js-project/blob/main/public/preview.png?raw=true",
+    image: {pizzaImg},
     title: "First Next.js + Tailwind Project",
     description:
       "A fully responsive Next.js project styled with Tailwind CSS and shadcn/ui. Designed with modern UI patterns, smooth animations, and clean code structure. Deployed on Vercel and open-sourced on GitHub.",
