@@ -15,6 +15,7 @@ import toolsWebImg from "../../assets/Tools-Website.png"
 import pizzaImg from "../../assets/pizza-img.png"
 import businessWeb from "../../assets/p1.png"
 import nexcent from "../../assets/p2.png"
+import restaurant from "../../assets/restaurant.png"
 
 const projectsData = [
   {
@@ -69,8 +70,20 @@ const projectsData = [
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/CSS-Hackathon",
   },
+
   {
     id: 6,
+    image: `${restaurant}`,
+    title: "React Restaurant App – Filtering & Search",
+    description:
+      "A feature-rich restaurant app built in React with dynamic category filtering, real-time search, and state management using Context API. Includes clean UI, reusable components, and fast user experience.",
+    liveDemoLink: "https://react-restaurant-project-lovat.vercel.app/",
+    sourceCodeLink:
+      "https://github.com/fuzailahmed-developer/react-restaurant-project",
+  },
+
+  {
+    id: 7,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/10.weather-app.png?raw=true",
     title: "Weather Forecast App",
@@ -81,7 +94,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/10_Weather-App",
   },
   {
-    id: 7,
+    id: 8,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/16.country-project.png?raw=true",
     title: "All Countries Details Dashboard",
@@ -92,7 +105,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/Countries-Api-Project",
   },
   {
-    id: 8,
+    id: 9,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/9.landing-page.png?raw=true",
     title: "Dynamic Landing Page",
@@ -103,7 +116,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/09_Dynamic-Landing-Page",
   },
   {
-    id: 9,
+    id: 10,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/11.stop-watch.png?raw=true",
     title: "Stopwatch Timer App",
@@ -114,7 +127,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/16.StopWatch",
   },
   {
-    id: 10,
+    id: 11,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/8.todo-app.png?raw=true",
     title: "To-Do List with Local Storage",
@@ -125,7 +138,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/05_To_DO_List/Todo_with_local-storage",
   },
   {
-    id: 11,
+    id: 12,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/1.counter-app.png?raw=true",
     title: "Counter App",
@@ -136,7 +149,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/01_Counter-APP",
   },
   {
-    id: 12,
+    id: 13,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/12.gradient-generator.png?raw=true",
     title: "Gradient Generator Tool",
@@ -147,7 +160,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/13.Gradient%20Genetor",
   },
   {
-    id: 13,
+    id: 14,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/5.calculator.png?raw=true",
     title: "Calculator App",
@@ -158,6 +171,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/09_Calculator",
   },
 ];
+
 
 
 
