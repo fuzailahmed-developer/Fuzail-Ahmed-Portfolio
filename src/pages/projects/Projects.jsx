@@ -3,7 +3,6 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
   Typography,
   Button,
 } from "@material-tailwind/react";
@@ -67,7 +66,7 @@ const projectsData = [
     title: "AI Chatbot (React + Gemini API)",
     description:
       "A fully functional AI chatbot built using React and Gemini API. Supports real-time messaging, structured AI responses, smooth UI, and clean API integration. Focused on frontend logic, state management, and practical AI implementation.",
-    liveDemoLink: "https://chatbot-react-gemini-five.vercel.app/",
+    liveDemoLink: "https://chatbot-react-gemini-roan.vercel.app/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/chatbot-react-gemini",
   },
