@@ -17,6 +17,7 @@ import nexcent from "../../assets/p2.png"
 import restaurant from "../../assets/restaurant.png"
 import chatbot from "../../assets/chatbot.png"
 import assistant from "../../assets/assistant.png"
+import skill from "../../assets/skill.png"
 
 const projectsData = [
   {
@@ -29,8 +30,20 @@ const projectsData = [
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/React-Tailwind-UI-Project",
   },
+
   {
     id: 2,
+    image: `${skill}`,
+    title: "Education Website (React + Tailwind)",
+    description:
+      "A modern education website built using React and Tailwind CSS. Features a clean layout, responsive UI, structured components, and a professional design suitable for real-world institutes and learning platforms.",
+    liveDemoLink: "https://education-website-project-eta.vercel.app/",
+    sourceCodeLink:
+      "https://github.com/fuzailahmed-developer/Education-Website-Project",
+  },
+
+  {
+    id: 3,
     image:
       "https://github.com/fuzailahmed-developer/CSS-Projects/blob/main/NexaAi/nexa.png?raw=true",
     title: "Nexa AI Landing Page Clone",
@@ -41,7 +54,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/CSS-Projects/tree/main/NexaAi",
   },
   {
-    id: 3,
+    id: 4,
     image: `${pizzaImg}`,
     title: "Pizza Ordering Website (Next.js)",
     description:
@@ -51,7 +64,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/first-next_js-project",
   },
   {
-    id: 4,
+    id: 5,
     image: `${restaurant}`,
     title: "React Restaurant App – Filtering & Search",
     description:
@@ -61,7 +74,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/react-restaurant-project",
   },
   {
-    id: 5,
+    id: 6,
     image: `${chatbot}`,
     title: "AI Chatbot (React + Gemini API)",
     description:
@@ -70,9 +83,8 @@ const projectsData = [
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/chatbot-react-gemini",
   },
-
   {
-    id: 6,
+    id: 7,
     image: `${assistant}`,
     title: "Virtual Assistant (React + Gemini API)",
     description:
@@ -81,9 +93,8 @@ const projectsData = [
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/virtual-assistant",
   },
-
   {
-    id: 7,
+    id: 8,
     image: `${nexcent}`,
     title: "Nexcent CSS Hackathon Project",
     description:
@@ -93,7 +104,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/CSS-Hackathon",
   },
   {
-    id: 8,
+    id: 9,
     image: `${businessWeb}`,
     title: "Business Website with Bootstrap",
     description:
@@ -104,7 +115,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/business-website-bootstrap",
   },
   {
-    id: 9,
+    id: 10,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/10.weather-app.png?raw=true",
     title: "Weather Forecast App",
@@ -115,83 +126,84 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/10_Weather-App",
   },
   {
-    id: 10,
+    id: 11,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/16.country-project.png?raw=true",
     title: "All Countries Details Dashboard",
     description:
-      "A detailed countries information app built with JavaScript, HTML & CSS. Fetches data from REST APIs to display flags, populations, capitals, and more. Fully responsive, user-friendly, and open-source on GitHub.",
+      "A detailed countries information app built with JavaScript, HTML & CSS. Fetches data from REST APIs to display flags, populations, capitals, and more. Fully responsive and user-friendly.",
     liveDemoLink: "http://all-countries.details-api-project.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/Countries-Api-Project",
   },
   {
-    id: 11,
+    id: 12,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/9.landing-page.png?raw=true",
     title: "Dynamic Landing Page",
     description:
-      "A dynamic landing page built with JavaScript, HTML & CSS. Features animated content sections, smooth scroll effects, and responsive design. Live demo available and full source code open on GitHub.",
+      "A dynamic landing page built with JavaScript, HTML & CSS. Features animated content sections, smooth scroll effects, and responsive design.",
     liveDemoLink: "https://dynamic-landing-page.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/09_Dynamic-Landing-Page",
   },
   {
-    id: 12,
+    id: 13,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/11.stop-watch.png?raw=true",
     title: "Stopwatch Timer App",
     description:
-      "A simple and responsive stopwatch application built using JavaScript, HTML & CSS. Start, pause, reset features included with clean UI. Experience it live and check the full source code on GitHub.",
+      "A simple and responsive stopwatch application built using JavaScript, HTML & CSS. Start, pause, and reset features included with clean UI.",
     liveDemoLink: "https://my-stop-watch-project.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/16.StopWatch",
   },
   {
-    id: 13,
+    id: 14,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/8.todo-app.png?raw=true",
     title: "To-Do List with Local Storage",
     description:
-      "A user-friendly To-Do List app built with JavaScript, HTML & CSS, which stores tasks in browser’s localStorage so your data persists. Add, remove, and mark tasks complete. Try the live version or explore the source code on GitHub.",
+      "A user-friendly To-Do List app built with JavaScript, HTML & CSS, using localStorage to store tasks persistently.",
     liveDemoLink: "https://local-storage-todo.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/05_To_DO_List/Todo_with_local-storage",
   },
   {
-    id: 14,
+    id: 15,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/1.counter-app.png?raw=true",
     title: "Counter App",
     description:
-      "A lightweight counter app built with JavaScript, HTML & CSS. Increment, decrement, and reset functionalities with clean UI. Try the live demo and view full source code on GitHub.",
+      "A lightweight counter app with basic increment, decrement, and reset functionality. Clean UI and responsive design.",
     liveDemoLink: "https://fuzail-counter-app.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/01_Counter-APP",
   },
   {
-    id: 15,
+    id: 16,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/12.gradient-generator.png?raw=true",
     title: "Gradient Generator Tool",
     description:
-      "A modern gradient generator built with JavaScript, HTML & CSS. Lets users create, preview, and copy CSS gradients with ease. View the live tool and check the full source code on GitHub.",
+      "A modern gradient generator to create, preview, and copy CSS gradients. Built with JavaScript, HTML & CSS.",
     liveDemoLink: "https://gradient-generator-program.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/13.Gradient%20Genetor",
   },
   {
-    id: 16,
+    id: 17,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/5.calculator.png?raw=true",
     title: "Calculator App",
     description:
-      "A sleek calculator built with JavaScript, HTML & CSS. Supports basic arithmetic operations with a clean, responsive UI. Test it live and explore the source code on GitHub.",
+      "A sleek calculator built with JavaScript, HTML & CSS. Supports basic arithmetic operations with a clean UI.",
     liveDemoLink: "http://fuzail-calculator.surge.sh/",
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/09_Calculator",
   },
 ];
+
 
 
 
