@@ -131,7 +131,7 @@ function Hero() {
 
   if (init) {
     return (
-      <div className="flex flex-col md:flex-row items-center justify-center h-screen">
+      <div className="flex flex-col md:flex-row items-center justify-center h-screen gap-y-10 gap-x-4">
         <Particles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
@@ -139,12 +139,14 @@ function Hero() {
         />
         <div className="flex mr:0 md:mr-16 w-2/3 md:w-1/3 lg:w-4/12 xl:w-1/3 items-center justify-center">
           <Tilt tiltMaxAngleY={3} tiltMaxAngleX={3}>
-            <img
-              src="/images/myImg.png"
-              alt="FA"
-              className="mb-8 w-full h-auto object-cover rounded-full"
-              onClick={esterOnClick}
-            />
+            <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden">
+              <img
+                src="/images/profile-photo.jpg"
+                alt="FA"
+                onClick={esterOnClick}
+                className="w-full h-full object-cover"
+              />
+            </div>
           </Tilt>
 
           {showEasterEgg && (
@@ -156,7 +158,7 @@ function Hero() {
         <div className="md:w-2/4 flex md:flex flex-col items-start justify-center">
           <Typography
             variant="h1"
-            className="mb-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold xl:text-8xl text-blue-gray-900 dark:text-gray-200 font-poppins"
+            className="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold xl:text-[64px] text-blue-gray-900 dark:text-gray-200 font-poppins"
           >
             Hey, I'm Fuzail Ahmed
           </Typography>
