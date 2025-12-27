@@ -19,6 +19,7 @@ import chatbot from "../../assets/chatbot.png"
 import assistant from "../../assets/assistant.png"
 import skill from "../../assets/skill.png"
 import quiz from '../../assets/quizapp.png'
+import gpt3 from '../../assets/gpt3.png'
 
 const projectsData = [
   {
@@ -92,8 +93,6 @@ const projectsData = [
     sourceCodeLink:
       "https://github.com/fuzailahmed-developer/virtual-assistant",
   },
-
-  
   {
     id: 8,
     image: `${quiz}`,
@@ -107,6 +106,17 @@ const projectsData = [
 
   {
     id: 9,
+    image: `${gpt3}`,
+    title: "GPT-3 Landing Page Clone (React)",
+    description:
+      "A modern GPT-3 landing page clone built with React. Features clean UI, responsive layout, reusable components, and modern design inspired by OpenAI's GPT-3 website.",
+    liveDemoLink: "https://gpt-3-clone-mu.vercel.app/",
+    sourceCodeLink:
+      "https://github.com/fuzailahmed-developer/GPT-3_CLONE",
+  },
+
+  {
+    id: 10,
     image: `${nexcent}`,
     title: "Nexcent CSS Hackathon Project",
     description:
@@ -116,7 +126,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/CSS-Hackathon",
   },
   {
-    id: 10,
+    id: 11,
     image: `${businessWeb}`,
     title: "Business Website with Bootstrap",
     description:
@@ -127,7 +137,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/business-website-bootstrap",
   },
   {
-    id: 11,
+    id: 12,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/10.weather-app.png?raw=true",
     title: "Weather Forecast App",
@@ -138,7 +148,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/10_Weather-App",
   },
   {
-    id: 12,
+    id: 13,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/16.country-project.png?raw=true",
     title: "All Countries Details Dashboard",
@@ -149,7 +159,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/Countries-Api-Project",
   },
   {
-    id: 13,
+    id: 14,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/9.landing-page.png?raw=true",
     title: "Dynamic Landing Page",
@@ -160,7 +170,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/09_Dynamic-Landing-Page",
   },
   {
-    id: 14,
+    id: 15,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/11.stop-watch.png?raw=true",
     title: "Stopwatch Timer App",
@@ -171,7 +181,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/16.StopWatch",
   },
   {
-    id: 15,
+    id: 16,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/8.todo-app.png?raw=true",
     title: "To-Do List with Local Storage",
@@ -182,7 +192,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/05_To_DO_List/Todo_with_local-storage",
   },
   {
-    id: 16,
+    id: 17,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/1.counter-app.png?raw=true",
     title: "Counter App",
@@ -193,7 +203,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/SMIT-Project-List/01_Counter-APP",
   },
   {
-    id: 17,
+    id: 18,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/12.gradient-generator.png?raw=true",
     title: "Gradient Generator Tool",
@@ -204,7 +214,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/13.Gradient%20Genetor",
   },
   {
-    id: 18,
+    id: 19,
     image:
       "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/5.calculator.png?raw=true",
     title: "Calculator App",
@@ -215,6 +225,7 @@ const projectsData = [
       "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/09_Calculator",
   },
 ];
+
 
 
 
