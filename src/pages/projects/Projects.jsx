@@ -21,6 +21,8 @@ import skill from "../../assets/skill.png"
 import quiz from '../../assets/quizapp.png'
 import gpt3 from '../../assets/gpt3.png'
 import passwordImg from '../../assets/images/password.png'
+import advanceTodoImg from '../../assets/images/advance-todo.png'
+
 
 const projectsData = [
   {
@@ -193,15 +195,15 @@ const projectsData = [
   },
   {
     id: 17,
-    image:
-      "https://github.com/fuzailahmed-developer/JS-Projects/blob/main/JS-Portfolio/8.todo-app.png?raw=true",
-    title: "To-Do List with Local Storage",
+    image: `${advanceTodoImg}`,
+    title: "Advanced Todo App (Local Storage)",
     description:
-      "A To-Do list app using localStorage for persistent data.",
-    liveDemoLink: "https://local-storage-todo.surge.sh/",
+      "A modern and advanced todo app built with HTML, CSS, and JavaScript. Features daily goal tracking, progress indicator, clean UI, and persistent data using localStorage for a better productivity experience.",
+    liveDemoLink: "http://fuzail_advance_todo_app.surge.sh/",
     sourceCodeLink:
-      "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/05_To_DO_List/Todo_with_local-storage",
+      "https://github.com/fuzailahmed-developer/JS-Projects/tree/main/20_Advance_Todo_App",
   },
+
   {
     id: 18,
     image:
